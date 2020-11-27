@@ -12,7 +12,7 @@ const BookForm = ({ dispatch }) => {
     const newBook = {
       title,
       author,
-      id: 5,
+      id: 6,
     };
     dispatch(addBook(newBook));
     setTitle('');

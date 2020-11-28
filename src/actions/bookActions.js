@@ -10,10 +10,10 @@ export const fetchBooks = () => async (dispatch) => {
   });
 };
 
-export const addBook = (newBook) => async (dispatch) => {
+export const addBook = (book) => async (dispatch) => {
   dispatch({
     type: ADD_BOOK,
-    payload: newBook,
+    payload: book,
   });
 };
 
